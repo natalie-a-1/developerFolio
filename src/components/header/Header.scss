@@ -18,6 +18,7 @@
 
 .dark-menu li a:hover {
   background-color: $buttonColor !important;
+  border-radius: 10px; /* Add this to round the background on hover */
 }
 
 .header {
@@ -40,7 +41,7 @@
 
 .header li a {
   display: block;
-  padding: 15px 20px;
+  padding: 10px 15px;
   color: $textColor;
   text-decoration: none;
 }
@@ -48,6 +49,7 @@
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
+  border-radius: 20px; /* Add this to round the background on hover */
 }
 
 .header .logo {
@@ -61,8 +63,8 @@
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
+  font-family: "";
+  font-weight: light;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
