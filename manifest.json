@@ -1,0 +1,25 @@
+{
+  "short_name": "Natalie Hill Portfolio",
+  "name": "Natalie Hill Portfolio",
+  "icons": [
+    {
+      "src": "/faveicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/faveicon.ico",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/faveicon.ico",
+      "type": "image/png",
+      "sizes": "384x384"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6c63ff",
+  "background_color": "#ffffff"
+}
