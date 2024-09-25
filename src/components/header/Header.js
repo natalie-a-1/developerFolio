@@ -1,4 +1,6 @@
-import React, {useContext} from "react";
+// src/components/Header/Header.js
+
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -15,7 +17,7 @@ import {
 } from "../../portfolio";
 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -34,7 +36,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: isDark ? "white" : "black" }} // Dynamic color based on theme
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -79,6 +81,10 @@ function Header() {
           )}
           <li>
             <a href="#contact">Contact Me</a>
+          </li>
+          {/* Toggle Switch Integration */}
+          <li className="toggle-switch-container">
+            <ToggleSwitch />
           </li>
         </ul>
       </header>

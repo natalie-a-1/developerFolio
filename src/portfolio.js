@@ -406,8 +406,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(405)476-6010",
-  email_address: "nataliehill1324@gmail.com"
+  number: "",
+  email_address: ""
 };
 
 // Twitter Section
